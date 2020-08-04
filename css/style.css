@@ -1,0 +1,36 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+    background-color: teal;
+    color: #ffffff;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.row{
+    overflow: hidden;
+}
+
+.col{
+    float: left;
+    margin-right: 20px;
+}
+
+a:link, a:hover,a:visited{
+    color: #ffffff;
+}
+
+h1, h2{
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    margin: 10px 0px;
+}
